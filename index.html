@@ -8,28 +8,45 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script defer src="questions.js"></script>
+    <script src="questions.js"></script>
+    <script src="code.js"></script>
     <title>Code Test</title>
 </head>
 
 <body>
 
-    <h1> Coding Quiz</h1>
-    <h2>Start</h2>
 
-    <div class="container">
-        <div id="question-box" class="hide">
-            <div id="question">Question</div>
-            <div id="a" class="btn-grid">
-                <button id="btn0"><span id="choice0"></span></button>
-                <button id="btn1"><span id="choice1"></span></button>
-                <button id="btn2"><span id="choice2"></span></button>
-                <button id="btn3"><span id="choice3"></span></button>
-
-            </div>
+    <div class="container-fluid">
+        <div class="header">
+            <button id="highScore">View High Score</button>
+            <div id="timer">Time:75</div>
         </div>
+        <div class="card" id="begin">
+            <div class="card-header">Start</div>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">
+                Click To Start Quiz
+            </h5>
+            <p class="card-text">
+                Once you start the quiz you will have 75 seconds to complete it. Good luck!!!
+            </p>
+            <a href="#" class="btn btn-primary" id="startQuiz">Start Quiz</a>
+        </div>
+        <div class="jumbotron" id="questionsBox">
+            <h1 class="display-4" id="questNumber"></h1>
+            <p class="lead" id="titles"> </p>
+            <div id="choice" onClick=nextQuestion()><button id="buttonA"></button></div>
+            <div id="choice" onClick=nextQuestion()><button id="buttonB"></button></div>
+            <div id="choice" onClick=nextQuestion()><button id="buttonC"></button></div>
+            <div id="choice" onClick=nextQuestion()><button id="buttonD"></button></div>
 
+        </div>
     </div>
+   
+
+
+    
 </body>
 
 </html>
