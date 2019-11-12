@@ -25,6 +25,13 @@ https://code.jquery.com/
 
 
 ## Screenshots
+<img src="Screen Shot 2019-11-12 at 12.05.55 AM.png">
+<img src="Screen Shot 2019-11-12 at 12.06.17 AM.png">
+<img src="Screen Shot 2019-11-12 at 12.06.29 AM.png">
+<img src="Screen Shot 2019-11-12 at 12.06.48 AM.png">
+<img src="Screen Shot 2019-11-12 at 12.07.12 AM.png">
+<img src="Screen Shot 2019-11-12 at 12.07.23 AM.png">
+<img src="Screen Shot 2019-11-12 at 12.07.33 AM.png">
 
 
 

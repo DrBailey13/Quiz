@@ -12,7 +12,7 @@ var choiceB = document.getElementById("buttonB");
 var choiceC = document.getElementById("buttonC");
 var choiceD = document.getElementById("buttonD");
 var buttonEl = document.querySelector("#choice");
-//make questions invisible when page first loads
+//Questiosn box invisble until start is pressed
 questionsBox.style.display = "none";
 enterYourScore.style.display = "none";
 pennedHighScores.style.display = "none";

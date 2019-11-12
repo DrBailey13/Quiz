@@ -17,5 +17,16 @@
 }
 
 body{
-    background-image: url();
+    background-image: url(landscape-photography-of-forest-during-autumn-season-589821.jpg);
+    background-size: 2000px;
+}
+
+#timer{
+    color: red;
+    font-size: 50px;
+}
+
+.promptedText{
+    color: red;
+    font-size: 40px;
 }
