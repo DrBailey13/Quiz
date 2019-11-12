@@ -72,12 +72,12 @@ questionsBox.addEventListener("click", function (event) {
 
         if (choice == questions[i].answer) {
              alert("Great Job :)");
-             timer = timer + 10;
              // promptQuestions();
              nextQuestion();
          }
          else {
              alert("Wrong Answer :(")
+             timer = timer - 10
             // promptQuestions();
             nextQuestion();
         }

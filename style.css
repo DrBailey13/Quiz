@@ -1,0 +1,18 @@
+.Scorefield{
+    display: flex;
+    justify-content: space-between;
+}
+
+#choice{
+    font-style: normal; color: brown;
+}
+
+#buttonA,#buttonB,#buttonC,#buttonD{
+    background-color: brown;
+    color: whitesmoke;
+}
+
+#titles{
+    color: brown;
+}
+
