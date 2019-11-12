@@ -23,9 +23,9 @@ var questions = [
        title: "css bootstrap was created on what social media site?",
        choices: ["twitter", "facebook", "instagram", "snapchat"],
        answer: "twitter"
-    },
+    }
 
-  ];
+  ]
 
   
 
